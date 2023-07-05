@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App!</title>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Welcome to the weather app!</h1>
+    <div id="input">
+      <input
+        id="city"
+        type="text"
+        name="city"
+        placeholder="Enter a city name"
+      />
+      <button type="submit" value="Submit" id="submit">Submit</button>
+    </div>
+    <table>
+      <tr>
+        <td></td>
+        <td><img src="" alt="" id="icon" /></td>
+      </tr>
+      <tr>
+        <th>City</th>
+        <td id="location">Loading...</td>
+      </tr>
+      <tr>
+        <th>Temperature</th>
+        <td id="temperature"></td>
+      </tr>
+      <tr>
+        <th>Condition</th>
+        <td id="condition"></td>
+      </tr>
+      <tr>
+        <th>Wind Speed</th>
+        <td id="windSpeed"></td>
+      </tr>
+      <tr>
+        <th>Wind Direction</th>
+        <td id="windDirection"></td>
+      </tr>
+      <tr>
+        <th>Feels Like</th>
+        <td id="feelsLike"></td>
+      </tr>
+    </table>
+  </body>
+</html>

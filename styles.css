@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Applies table styling and centers table */
+table {
+
+    border-collapse: collapse;
+    width: 100%;
+    color: #588c7e;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Applies styling to h1 header and to input fields */
+h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+    color: #588c7e;
+}
+
+input {
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    color: #588c7e;
+    display: inline;
+}
+
+/* Applies styling to table headers */
+th {
+    background-color: #588c7e;
+    color: white;
+    padding: 10px;
+}
+
+/* Applies styling to table rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Applies styling to table data */
+td {
+    padding: 10px;
+}
+
+/* Applies styling to submit button */
+button {
+    background-color: #588c7e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    display: inline;
+}
+
+/* put input field and button centered and right beside each other */
+#input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
